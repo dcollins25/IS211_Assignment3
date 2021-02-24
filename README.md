@@ -9,11 +9,20 @@
 # My copy for the assignment: https://github.com/dcollins25/IS211_Assignment3
 
 This script should run as planned ...
-	- use argparse module, requiring a URL as first position argument
-	- create a method to download the data
-	- use the method to retrieve the data from the URL passed on command-line
-	- decode into UTF-8
-	- put it into a dictionary
-	- use the re module to process the data, working out image counts and browser top usage
 
-	- Extra Credit: attempt to use datetime import time to process # of hits per hour (failed)
+# PART 1 - Pull Down the Web Log File	(WORKS)
+	- import argparse
+
+# Part II Process File Using CSV	(WORKS)
+	- import csv and sys
+
+# Part III Search for Image Hits	(WORKS)
+	- import re
+	- search for .jpg, .gif or .png. Count the # of images among the total # of hits. Display image counts as a %-age.
+
+# Part IV Finding Most Popular Browser (WORKS)  ... added a count of the usage, too
+	- find out how many people are using which browser and report which one is the most used
+
+# Part VI Extra Credit	(FAILED)
+	- import datetime
+	- for each hour, figure out the # of hits and then display it as requested
